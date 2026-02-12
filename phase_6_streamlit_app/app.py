@@ -162,7 +162,7 @@ st.markdown("""
 
 # --- Initialization ---
 
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def load_rag_system():
     """Initialize Retriever and Generator only once."""
     base_dir = project_root
