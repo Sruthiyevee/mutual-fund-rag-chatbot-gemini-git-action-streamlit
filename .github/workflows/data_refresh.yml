@@ -13,9 +13,7 @@ jobs:
   refresh-data:
     runs-on: ubuntu-latest
     
-    services:
-      # No external services needed for this simple script
-      
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
