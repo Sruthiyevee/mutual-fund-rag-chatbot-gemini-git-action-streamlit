@@ -1,0 +1,42 @@
+{
+    "hdfc_large_cap_fund": {
+        "scheme_name": "HDFC Large Cap Fund",
+        "riskometer": "Moderately High",
+        "riskometer_level": "5 out of 6",
+        "benchmark_riskometer": "Moderately High",
+        "source": "HDFC Mutual Fund - Monthly Portfolio (December 2025)",
+        "last_updated": "December 31, 2025"
+    },
+    "hdfc_mid_cap_fund": {
+        "scheme_name": "HDFC Mid Cap Fund",
+        "riskometer": "Very High",
+        "riskometer_level": "6 out of 6",
+        "benchmark_riskometer": "Very High",
+        "source": "HDFC Mutual Fund - Monthly Portfolio (December 2025)",
+        "last_updated": "December 31, 2025"
+    },
+    "hdfc_small_cap_fund": {
+        "scheme_name": "HDFC Small Cap Fund",
+        "riskometer": "Very High",
+        "riskometer_level": "6 out of 6",
+        "benchmark_riskometer": "Very High",
+        "source": "HDFC Mutual Fund - Monthly Portfolio (December 2025)",
+        "last_updated": "December 31, 2025"
+    },
+    "hdfc_flexi_cap_fund": {
+        "scheme_name": "HDFC Flexi Cap Fund",
+        "riskometer": "Very High",
+        "riskometer_level": "6 out of 6",
+        "benchmark_riskometer": "Very High",
+        "source": "HDFC Mutual Fund - Monthly Portfolio (December 2025)",
+        "last_updated": "December 31, 2025"
+    },
+    "hdfc_multi_cap_fund": {
+        "scheme_name": "HDFC Multi Cap Fund",
+        "riskometer": "Very High",
+        "riskometer_level": "6 out of 6",
+        "benchmark_riskometer": "Very High",
+        "source": "HDFC Mutual Fund - Monthly Portfolio (December 2025)",
+        "last_updated": "December 31, 2025"
+    }
+}

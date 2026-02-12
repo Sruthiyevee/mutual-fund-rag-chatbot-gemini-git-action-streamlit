@@ -1,0 +1,242 @@
+[
+    {
+        "resource_name": "HDFC Midcap - SID",
+        "source": "HDFC MF",
+        "scheme": "Midcap",
+        "document_type": "SID",
+        "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Mid%20Cap%20Fund%20dated%20November%2021%2C%202025_1.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Midcap - KIM",
+        "source": "HDFC MF",
+        "scheme": "Midcap",
+        "document_type": "KIM",
+        "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Mid%20Cap%20Fund%20dated%20November%2021%2C%202025_1.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Midcap - Factsheet",
+        "source": "HDFC MF",
+        "scheme": "Midcap",
+        "document_type": "Factsheet",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-02/Fund%20Facts%20-%20HDFC%20Mid-Cap%20Fund_January%2026.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Midcap - Presentation",
+        "source": "HDFC MF",
+        "scheme": "Midcap",
+        "document_type": "Presentation",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2025-11/HDFC%20Mid%20Cap%20Fund%20Presentation%20%28October%202025%29.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Midcap - Fund Page",
+        "source": "HDFC MF",
+        "scheme": "Midcap",
+        "document_type": "Fund Page",
+        "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-mid-cap-fund/direct",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Flexi Cap Fund - SID",
+        "source": "HDFC MF",
+        "scheme": "Flexi Cap Fund",
+        "document_type": "SID",
+        "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Flexi%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Flexi Cap Fund - KIM",
+        "source": "HDFC MF",
+        "scheme": "Flexi Cap Fund",
+        "document_type": "KIM",
+        "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Flexi%20Cap%20Fund%20dated%20November%2021%2C%202025_1.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Flexi Cap Fund - Factsheet",
+        "source": "HDFC MF",
+        "scheme": "Flexi Cap Fund",
+        "document_type": "Factsheet",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-02/Fund%20Facts%20-%20HDFC%20Flexi%20Cap%20Fund_January%2026.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Flexi Cap Fund - Presentation",
+        "source": "HDFC MF",
+        "scheme": "Flexi Cap Fund",
+        "document_type": "Presentation",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2025-12/HDFC%20Flexi%20Cap%20Fund%20Presentation%20%28November%202025%29.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Flexi Cap Fund - Fund Page",
+        "source": "HDFC MF",
+        "scheme": "Flexi Cap Fund",
+        "document_type": "Fund Page",
+        "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Small Cap Fund - SID",
+        "source": "HDFC MF",
+        "scheme": "Small Cap Fund",
+        "document_type": "SID",
+        "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Small%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Small Cap Fund - KIM",
+        "source": "HDFC MF",
+        "scheme": "Small Cap Fund",
+        "document_type": "KIM",
+        "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Small%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Small Cap Fund - Factsheet",
+        "source": "HDFC MF",
+        "scheme": "Small Cap Fund",
+        "document_type": "Factsheet",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-02/Fund%20Facts%20-%20HDFC%20Small%20Cap%20Fund_January%2026.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Small Cap Fund - Presentation",
+        "source": "HDFC MF",
+        "scheme": "Small Cap Fund",
+        "document_type": "Presentation",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2025-10/HDFC%20Small%20Cap%20Fund%20-%20Presentation%20%28October%202025%29.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Small Cap Fund - Fund Page",
+        "source": "HDFC MF",
+        "scheme": "Small Cap Fund",
+        "document_type": "Fund Page",
+        "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-small-cap-fund/direct",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Multi Cap Fund - SID",
+        "source": "HDFC MF",
+        "scheme": "Multi Cap Fund",
+        "document_type": "SID",
+        "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Multi%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Multi Cap Fund - KIM",
+        "source": "HDFC MF",
+        "scheme": "Multi Cap Fund",
+        "document_type": "KIM",
+        "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Multi%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Multi Cap Fund - Factsheet",
+        "source": "HDFC MF",
+        "scheme": "Multi Cap Fund",
+        "document_type": "Factsheet",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-02/Fund%20Facts%20-%20HDFC%20Multi%20Cap_January%2026.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Multi Cap Fund - Presentation",
+        "source": "HDFC MF",
+        "scheme": "Multi Cap Fund",
+        "document_type": "Presentation",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2025-07/HDFC%20Multi%20Cap%20Fund%20Presentation%20-%20March%202025.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Multi Cap Fund - Fund Page",
+        "source": "HDFC MF",
+        "scheme": "Multi Cap Fund",
+        "document_type": "Fund Page",
+        "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-multi-cap-fund/direct",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Large Cap Fund - SID",
+        "source": "HDFC MF",
+        "scheme": "Large Cap Fund",
+        "document_type": "SID",
+        "url": "https://files.hdfcfund.com/s3fs-public/SID/2025-11/SID%20-%20HDFC%20Large%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Large Cap Fund - KIM",
+        "source": "HDFC MF",
+        "scheme": "Large Cap Fund",
+        "document_type": "KIM",
+        "url": "https://files.hdfcfund.com/s3fs-public/KIM/2025-11/KIM%20-%20HDFC%20Large%20Cap%20Fund%20dated%20November%2021%2C%202025_0.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Large Cap Fund - Factsheet",
+        "source": "HDFC MF",
+        "scheme": "Large Cap Fund",
+        "document_type": "Factsheet",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2026-02/Fund%20Facts%20-%20HDFC%20Large%20Cap%20Fund_January%2026.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Large Cap Fund - Presentation",
+        "source": "HDFC MF",
+        "scheme": "Large Cap Fund",
+        "document_type": "Presentation",
+        "url": "https://files.hdfcfund.com/s3fs-public/Others/2025-10/HDFC%20Large%20Cap%20Fund%20Presentation%20%28September%202025%29.pdf",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "HDFC Large Cap Fund - Fund Page",
+        "source": "HDFC MF",
+        "scheme": "Large Cap Fund",
+        "document_type": "Fund Page",
+        "url": "https://www.hdfcfund.com/explore/mutual-funds/hdfc-large-cap-fund/direct",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "AMFI - Introduction to Mutual Funds",
+        "source": "AMFI",
+        "scheme": "COMMON",
+        "document_type": "Educational",
+        "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=IntroductionMutualFunds",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "AMFI - Types of Mutual Fund Schemes",
+        "source": "AMFI",
+        "scheme": "COMMON",
+        "document_type": "Educational",
+        "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=TypesOfMutualFundSchemes",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "AMFI - Expense Ratio",
+        "source": "AMFI",
+        "scheme": "COMMON",
+        "document_type": "Educational",
+        "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "AMFI - Advantages of Investing in Mutual Funds",
+        "source": "AMFI",
+        "scheme": "COMMON",
+        "document_type": "Educational",
+        "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=AdvantagesOfInvestingInMutualFunds",
+        "local_file_path": null
+    },
+    {
+        "resource_name": "AMFI - Categorization of Mutual Fund Schemes",
+        "source": "AMFI",
+        "scheme": "COMMON",
+        "document_type": "Educational",
+        "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=CategorizationOfMutualFundSchemes",
+        "local_file_path": null
+    }
+]

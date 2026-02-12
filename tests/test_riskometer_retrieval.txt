@@ -1,0 +1,45 @@
+QUERY: What is the riskometer rating of HDFC Small Cap Fund?
+================================================================================
+
+1. Score: 0.7637 | Scheme: Small Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Small Cap Fund-SID SCHEME INFORMATION DOCUMENT HDFC Small Cap Fund An open ended equity scheme predominantly investing in small cap stocks This product is suitable for investors who are seeking...
+
+2. Score: 0.7616 | Scheme: Small Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Small Cap Fund - KIM KEY INFORMATION MEMORANDUM HDFC Small Cap Fund An open ended equity scheme predominantly investing in small cap stocks This product is suitable for investors who are seekin...
+
+3. Score: 0.7466 | Scheme: Large Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Large Cap Fund - KIM KEY INFORMATION MEMORANDUM HDFC Large Cap Fund (Formerly known as HDFC Top 100 Fund) An open ended equity scheme predominantly investing in large cap stocks This product is...
+
+4. Score: 0.7462 | Scheme: Large Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Large Cap Fund-SID SCHEME INFORMATION DOCUMENT HDFC Large Cap Fund (Formerly known as HDFC Top 100 Fund) An open ended equity scheme predominantly investing in large cap stocks This product is ...
+
+5. Score: 0.7410 | Scheme: Large Cap Fund
+
+6. Score: 0.7402 | Scheme: Flexi Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Flexi Cap Fund - KIM KEY INFORMATION MEMORANDUM HDFC Flexi Cap Fund An open ended dynamic equity scheme investing across large cap, mid cap, small cap stocks This product is suitable for invest...
+
+7. Score: 0.7399 | Scheme: Multi Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Multi Cap Fund - KIM KEY INFORMATION MEMORANDUM HDFC Multi Cap Fund An open ended equity scheme investing across large cap, mid cap & small cap stocks This product is suitable for investors who...
+
+8. Score: 0.7375 | Scheme: Flexi Cap Fund
+   ✓ Contains riskometer/rating info
+   Text preview: 1 HDFC Flexi Cap Fund-SID SCHEME INFORMATION DOCUMENT HDFC Flexi Cap Fund An open ended dynamic equity scheme investing across large cap, mid cap, small cap stocks This product is suitable for investo...
+
+9. Score: 0.7366 | Scheme: Riskometer Ratings
+   ✓ Contains riskometer/rating info
+   Text preview: HDFC Mutual Fund Riskometer Ratings:
+
+1. HDFC Large Cap Fund:
+- Scheme Riskometer: Moderately High (Level 5 out of 6)
+- Benchmark Riskometer: Moderately High
+- Risk Category: Large Cap funds typically...
+
+10. Score: 0.7360 | Scheme: Midcap
+   ✓ Contains riskometer/rating info
+   Text preview: To generate long-term capital appreciation / income • Investment predominantly in Mid-Cap companies *Investors should consult their ﬁnancial advisers if in doubt about whether the product is suitable ...

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment Variables
+.env
+
+# Streamlit Secrets (contains API keys)
+.streamlit/secrets.toml
+**/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+
+# Project Data (Optional - uncomment if you want to exclude data)
+# phase1_data_collection/raw/
+# phase1_data_collection/cleaned/
+# phase2_vector_db/*.npy
+# phase2_vector_db/*.db
+# phase2_vector_db/*.json
+
+# Logs
+*.log

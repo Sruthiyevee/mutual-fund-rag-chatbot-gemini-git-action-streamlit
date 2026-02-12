@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+sentence-transformers
+numpy
+groq
+python-dotenv
+pytest
+streamlit
+watchdog
+requests
+beautifulsoup4
+pypdf
