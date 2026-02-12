@@ -33,6 +33,7 @@ class Phase2VectorStore:
 
         files = [f for f in os.listdir(self.cleaned_dir) if f.endswith('.json')]
         logging.info(f"Found {len(files)} files to process.")
+
         
         for filename in files:
             filepath = os.path.join(self.cleaned_dir, filename)
@@ -46,6 +47,7 @@ class Phase2VectorStore:
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+
                 
             text = data.get('extracted_text', '')
             if not text:
@@ -102,6 +104,8 @@ class Phase2VectorStore:
                 "source_file": metadata_source.get('source_file', '')
             }
             new_metadatas.append(meta)
+
+
 
         # Generate Embeddings
         new_embeddings = self.model.encode(chunks)
