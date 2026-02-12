@@ -1,7 +1,7 @@
 import os
 import logging
 from typing import List, Dict, Any
-import google.generativeai as genai
+from groq import Groq
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -12,18 +12,18 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 class AnswerGenerator:
     def __init__(self, api_key: str = None):
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY")
+        self.api_key = api_key or os.getenv("GROQ_API_KEY")
         if not self.api_key:
-            logging.warning("GEMINI_API_KEY not found. Helper will fail if actual generation is attempted.")
-            self.model = None
+            logging.warning("GROQ_API_KEY not found. Helper will fail if actual generation is attempted.")
+            self.client = None
         else:
             try:
-                genai.configure(api_key=self.api_key)
-                # Using Gemini 2.0 Flash for speed and efficiency, or fall back to Pro if needed.
-                self.model = genai.GenerativeModel('gemini-2.0-flash')
+                self.client = Groq(api_key=self.api_key)
+                # Using Llama 3 for balanced performance and speed
+                self.model = "llama-3.3-70b-versatile"
             except Exception as e:
-                logging.error(f"Failed to initialize Gemini client: {e}")
-                self.model = None
+                logging.error(f"Failed to initialize Groq client: {e}")
+                self.client = None
         
         self.system_prompt = """You are a helpful and friendly Mutual Fund FAQ assistant.
 
@@ -52,10 +52,10 @@ If information is missing or irrelevant, strictly state: "I don't know based on 
 
     def generate_answer(self, query: str, retrieved_chunks: List[Dict[str, Any]]) -> str:
         """
-        Generate an answer using Gemini based on the query and retrieved chunks.
+        Generate an answer using Groq based on the query and retrieved chunks.
         """
-        if not self.model:
-            return "Reference Code: MISSING_API_KEY. Please set GEMINI_API_KEY to generate real answers."
+        if not self.client:
+            return "Reference Code: MISSING_API_KEY. Please set GROQ_API_KEY to generate real answers."
 
         if not retrieved_chunks:
             return "I don't know based on the provided sources. Please ask an alternative question to search."
@@ -64,19 +64,20 @@ If information is missing or irrelevant, strictly state: "I don't know based on 
         context_str = self._build_context_str(retrieved_chunks)
         
         # Step 2: Prompt Construction
-        # Gemini favors a single prompt string or chat history. For strict RAG, we'll combine system + context + query.
-        full_prompt = f"{self.system_prompt}\n\nCONTEXT:\n{context_str}\n\nUSER QUESTION: {query}"
+        messages = [
+            {"role": "system", "content": self.system_prompt},
+            {"role": "user", "content": f"CONTEXT:\n{context_str}\n\nUSER QUESTION: {query}"}
+        ]
         
         # Step 3: LLM Invocation
         try:
-            response = self.model.generate_content(
-                full_prompt,
-                generation_config=genai.types.GenerationConfig(
-                    temperature=0.0, # Deterministic
-                    max_output_tokens=300
-                )
+            chat_completion = self.client.chat.completions.create(
+                messages=messages,
+                model=self.model,
+                temperature=0.0, # Deterministic
+                max_tokens=300,
             )
-            return response.text
+            return chat_completion.choices[0].message.content
             
         except Exception as e:
             error_details = f"Error generating answer: {type(e).__name__}: {str(e)}"

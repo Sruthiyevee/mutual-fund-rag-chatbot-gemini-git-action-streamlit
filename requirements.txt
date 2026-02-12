@@ -3,7 +3,7 @@ uvicorn
 pydantic
 sentence-transformers
 numpy
-google-generativeai
+groq
 python-dotenv
 pytest
 streamlit
