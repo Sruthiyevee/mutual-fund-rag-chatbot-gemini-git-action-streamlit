@@ -2,10 +2,29 @@ import os
 import sys
 import logging
 
-# Add the project root to the python path to allow imports
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Configure logging first to capture import errors if they happen later? 
+# No, let's just print to stderr for debug
+print(f"Current working directory: {os.getcwd()}")
+print(f"Script location: {os.path.abspath(__file__)}")
 
-from phase1_data_collection.scraper import Phase1Scraper
+# Add the project root to the python path to allow imports
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(project_root)
+print(f"Added to sys.path: {project_root}")
+print(f"sys.path: {sys.path}")
+
+try:
+    from phase1_data_collection.scraper import Phase1Scraper
+except ImportError as e:
+    print(f"CRITICAL ERROR: Failed to import Phase1Scraper: {e}")
+    # List files in expected location
+    phase1_path = os.path.join(project_root, 'phase1_data_collection')
+    print(f"Checking {phase1_path}:")
+    try:
+        print(os.listdir(phase1_path))
+    except Exception as list_e:
+        print(f"Could not list directory: {list_e}")
+    sys.exit(1)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - Phase7 - %(levelname)s - %(message)s')
