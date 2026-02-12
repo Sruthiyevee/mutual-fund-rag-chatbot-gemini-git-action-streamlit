@@ -24,7 +24,11 @@ def main():
     retriever = RetrievalSystem(embeddings_dir)
     
     print("Initializing Generator...")
-    # Will warn if API key is missing, handled gracefully
+    # Check for API key
+    if not os.getenv("GEMINI_API_KEY"):
+        print("WARNING: GEMINI_API_KEY not found in environment variables.")
+        print("Please set it in your .env file to generate answers.")
+        
     generator = AnswerGenerator() 
     
     # User Interface Elements

@@ -18,16 +18,16 @@ This document outlines the complete architecture for a **Facts-Only Mutual Fund 
 ### Key Features
 - ✅ **Facts-only responses** - No investment advice
 - ✅ **Source attribution** - Every answer cites its source
-- ✅ **Single API call** - One Groq API call per question
+- ✅ **Single API call** - One Gemini API call per question
 - ✅ **Website + PDF content** - Comprehensive data sources
 - ✅ **697 knowledge chunks** - Extensive coverage
-- ✅ **Sub-2 second responses** - Fast inference with Groq
+- ✅ **Sub-2 second responses** - Fast inference with Gemini
 - ✅ **Automated Data Refresh** - Weekly GitHub Actions updates
 
 ### Technology Stack
 - **Embeddings**: sentence-transformers (all-MiniLM-L6-v2) - Local
 - **Vector Database**: NumPy + JSON - Local storage
-- **LLM**: Groq API (llama-3.3-70b-versatile)
+- **LLM**: Google Gemini API (gemini-2.0-flash / gemini-1.5-pro)
 - **Web Scraping**: BeautifulSoup + pypdf
 - **Interface**: Streamlit + CLI
 
@@ -317,7 +317,7 @@ sequenceDiagram
 **Components**:
 1. **Context Builder**: Assembles retrieved chunks into context string
 2. **Prompt Constructor**: Creates system + user message
-3. **Groq Client**: Single API call to llama-3.3-70b-versatile
+3. **Gemini Client**: Single API call to Google's Generative AI
 
 **System Prompt**:
 ```
@@ -336,15 +336,15 @@ You must:
 **Output**: Generated answer (string)
 
 **Configuration**:
-- Model: llama-3.3-70b-versatile
+- Model: `gemini-2.0-flash` (or `gemini-1.5-pro`)
 - Temperature: 0.0 (deterministic)
 - Max tokens: 300
 - API calls: **1 per question**
 
 **Performance**:
-- API latency: 500-2000ms
+- API latency: 500-1500ms
 - Token usage: ~200-300 tokens per response
-- Cost: ~$0.0001 per question
+- Cost: Significantly lower (Gemini Flash is very cost-effective)
 
 ---
 

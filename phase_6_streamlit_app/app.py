@@ -180,19 +180,19 @@ def load_rag_system():
         
         # API Key Handling: Priority st.secrets > os.getenv
         api_key = None
-        if "GROQ_API_KEY" in st.secrets:
-            api_key = st.secrets["GROQ_API_KEY"]
+        if "GEMINI_API_KEY" in st.secrets:
+            api_key = st.secrets["GEMINI_API_KEY"]
         
         if not api_key:
-             api_key = os.getenv("GROQ_API_KEY")
+             api_key = os.getenv("GEMINI_API_KEY")
         
-        if not api_key or api_key == "YOUR_GROQ_API_KEY_HERE":
-            st.error("❌ **GROQ_API_KEY not configured!**")
+        if not api_key or api_key == "YOUR_GEMINI_API_KEY_HERE":
+            st.error("❌ **GEMINI_API_KEY not configured!**")
             st.info("""
             **For Streamlit Cloud:**
             1. Go to your app settings
             2. Navigate to Secrets
-            3. Add: `GROQ_API_KEY = "your_actual_key"`
+            3. Add: `GEMINI_API_KEY = "your_actual_key"`
             
             **For Local Development:**
             1. Copy `secrets.toml.example` to `secrets.toml`
